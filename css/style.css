@@ -1,0 +1,91 @@
+.main-box {
+	width: 100%;
+	height: 46px;
+	background: #FAFAFA;
+}
+
+.middle-box {	
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top {
+	padding-top:10px;
+}
+.del {
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.del a {
+	color: #d42859;
+}
+
+.phones ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.phones ul li {
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 10px;
+
+}
+.phones li a {
+	color: #111111;
+}
+
+.phones {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+}
+
+.top_right {
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 60px;
+
+}
+.top_right ul {
+	padding-left: 0;	
+	list-style: none;
+
+}
+
+.top_right ul li {	
+	display: inline-block;	
+	padding-right: 3px;	
+}
+
+.top_right li a {	
+	color: #111;
+	text-decoration: none;
+}
+.top_right li a:hover {		
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.top_right .first_garant  {
+	color: #D42859;
+	
+}
+
+.top_right .first_garant:hover{
+	border-bottom: 1px solid #D42859;
+} 
+ {
+	color: #D42859;
+}
+
+
+.center_text {
+	text-align: center;
+	color: #999999;
+	margin-top: -14px;
+}
+
