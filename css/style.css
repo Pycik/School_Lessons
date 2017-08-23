@@ -88,4 +88,245 @@
 	color: #999999;
 	margin-top: -14px;
 }
+.logo {
+display: inline-block;
+padding-right: 65px;
+}
+.header_logo {
+	display: inline-block;
+}
 
+.header_search {	
+	display: inline-block;
+	border-bottom: 1px solid #999999;
+	
+}
+
+.search_input {
+	border:none;	
+	width: 360px;
+	font-size: 16px;
+	padding-bottom: 12px;
+	outline:none;
+
+}
+
+
+.header_search:hover>.btn_search {
+	color: #F47C50;
+}
+.btn_search {
+	border: none;
+	background: none;
+}
+.nav_menu{
+	margin-top: 40px;	
+}
+
+.nav_menu li{
+	display: inline-block;
+	position: relative;
+	
+}
+.nav_menu ul{
+	padding: 0;
+	position: absolute;
+	
+}
+.nav_menu a{
+	color: #111;
+	font-size: 18px;
+	padding: 12px;
+
+
+}
+
+.nav_menu li a:hover{
+	color: #fff;
+	background: #F37055;
+	text-decoration: none;
+	border-radius: 8px;
+	
+}
+
+.nav_menu .parfums {
+	margin-top: 10px;
+	width: 240px;
+	display: none;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	z-index: 10;
+}
+
+.nav_menu .parfums li{
+	display: block;	
+	font-size: 18px;
+	padding-top: 15px;
+	height: 50px;	
+
+}
+.nav_menu ul li:hover .parfums{
+	display: block;
+}
+
+.nav_menu .parfums li:hover,.nav_menu .parfums a:hover {
+	background: silver;
+	
+}
+
+.nav_menu .parfums li:hover > a {
+	color: #F37055;	
+}
+
+.actions {
+	padding-top: 32px;
+	font-size: 22px;
+	color: #111;	
+}
+
+.actions a{	
+	color: #111;
+	text-decoration: none;	
+}
+
+.actions a:hover{	
+	color: #F37055;
+	text-decoration: none;	
+}
+
+.categoria {
+	margin-top: 18px;
+
+}
+
+.categoria li {
+	display: inline-block;	
+	padding-right: 22px;
+	
+}
+
+.categoria ul {
+	padding: 0;	
+}
+.categoria a {
+	color: #C5053B;
+	border-bottom:1px solid #C5053B;
+	padding: 5px 10px;	
+	
+}
+.categoria a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #F37055;
+	border-radius: 10px;	
+}
+.image_content {
+	width: 770px;
+	position: absolute;
+}
+
+.content_1 {	
+	margin:25px 0 65px 0;
+	position: absolute;
+
+}
+
+.info_content {
+	height: 172px;
+	background: rgba(84,84,84,0.6);
+	color: #fff;
+	position: relative;
+	margin-top: 273px;
+	font-size: 15px;
+	padding-left: 26px;
+	padding-top: 18px;
+
+}
+.info_content a {
+	color: #fff;
+	font-size: 20px;
+}
+.info_content p{
+	margin:0;
+}
+.info_content_down {
+	height: 50px;
+	background: rgba(28,28,29,0.8);
+	position: absolute;
+	margin-top: 396px;
+	color: #fff;
+	z-index: 9;
+}
+.image_content2 {
+	margin-top: 40px;
+}
+
+.sider_menu_right {
+	height: 418px;
+	width: 370px;
+	background: #FFF9E5;
+	position: relative;
+	float: right;
+	margin-top:25px;
+}
+
+.content {
+ 	margin: 26px 0 0 21px;
+}
+.parag_1 {
+	font-size: 18px;	
+}
+
+.parag_2 {
+	font-size: 15px;	
+}
+
+.parag_3 {
+	font-size: 18px;	
+}
+
+.content input{
+	height: 42px;
+	width: 330px;	
+	position: absolute;
+}
+.content input[placeholder]{
+	padding-left: 16px
+}
+
+
+
+.send_mail {
+	background: #468D23;	
+	color: #fff;
+	border: none;	
+	height: 42px;
+	width: 50px;	
+	position: relative;
+	float: right;
+	margin-right: 19px;	
+}
+.soc_network {	
+	padding-top: 48px;	
+}
+
+
+.soc_network ul {		
+	padding: 0;
+	list-style: none;
+	display: block;	
+	padding-top: 14px;
+	color: #D42859;
+}
+.soc_network ul li a {		
+	color: #D42859;
+}
+.soc_network span{		
+	color: #666;
+}
+
+
+.left_column {
+	float: left;
+	margin-right: 56px;
+}
