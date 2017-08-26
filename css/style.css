@@ -554,6 +554,8 @@ footer {
 	width: 240px;
 	background: #E93C2F;
 	border: none;
+	border-radius: 5px;
 	color: #FFF;
 	padding: 5px;
+
 }
